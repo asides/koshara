@@ -23,6 +23,9 @@ end
 group :development do
 	gem 'datashift'
 	gem 'datashift_spree'
+	
+	# Deploy with Capistrano
+	gem 'capistrano'
 end
 
 gem 'jquery-rails'
@@ -39,8 +42,7 @@ gem 'jquery-rails'
 # Use puma as the app server
 gem 'puma'
 
-# Deploy with Capistrano
-gem 'capistrano'
+
 
 # To use debugger
 # gem 'debugger'
