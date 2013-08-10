@@ -26,6 +26,7 @@ group :development do
 	
 	# Deploy with Capistrano
 	gem 'capistrano'
+	gem 'capistrano-rbenv'
 end
 
 gem 'jquery-rails'
