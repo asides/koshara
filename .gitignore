@@ -17,4 +17,6 @@ rerun.txt
 pickle-email-*.html
 .project
 /config/database.yml
-./config/deploy.rb
+/config/deploy.rb
+/public/spree/*
+/config/puma.rb
